@@ -94,3 +94,12 @@ void Vector<T>::expand()
     }
     delete [] old_elem;
 }
+
+class A{
+    virtual void a(){};
+};
+
+void A::b ()
+{
+
+}
